@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+      <!--css-->
+     <link rel="stylesheet" href="curr.css">
+
+     <!--icon-->
+     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=sync_alt" />
+</head>
+<body>
+    <div id="container">
+     <form>
+         <h1>Currnecy Converter</h1>
+          <div class="amount">
+             <p>Enter Amount</p>
+             <input type="text" id="input_amt" >
+          </div>
+           <div class="dropdowns">
+              <div class="from">
+                  <p>From</p>
+                   <div class="select_container">
+                     <img src="us.png" alt="" class="flag">
+                     <select name="from" > </select>
+                   </div>
+              </div>
+
+              <span class="material-symbols-outlined">sync_alt</span>
+
+              <div class="to">
+                <p>To</p>
+                 <div class="select_container">
+                   <img src="india.png" alt="img" class="flag">
+                   <select name="to" > </select>
+                 </div>
+            </div>
+           </div>
+
+           <div class="msg">1USD = 80INR</div>
+           <button>Get Exchange Rate</button>
+          
+     </form>
+    </div>
+    
+    <script src="codes.js"></script>
+ <script src="app.js"></script>
+</body>
+</html>
